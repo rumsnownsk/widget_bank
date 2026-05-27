@@ -9,7 +9,7 @@ def mask_account_card(text_data: str) -> str:
     Функция принимает любую строку, в которой имеется 16тизначный номер карты
     или 20ти значным номер счёта и определяет куда дальше направлять
     """
-    mask = ''
+    mask = ""
 
     if bool(re.search(r"\b\d{16}\b", text_data)):
         mask = get_mask_card_number(text_data)
