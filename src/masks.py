@@ -1,51 +1,26 @@
 from typing import Union
+import re
+
+from black import replace
 
 
-def get_mask_card_number(card_number: Union[str, int]) -> str:
+def get_mask_card_number(card_data: str) -> str:
     """
-    Функция маскировки номера банковской карты по шаблону XXXX XX** **** XXXX.
-    Функция validator() проверяет корректность (есть ли буквы и длину строки)
-
-    Args:
-        card_number (Union[int, str]): число или строка из 16 цифр
-
-    Returns:
-        str: замаскированный номер
+    Функция маскировки номера банковской карты по шаблону XXXX XX** **** XXXX
     """
-    card_number = str(card_number)
-
-    (errors, is_valid) = validator(card_number)
-
-    if is_valid:
-        part1 = card_number[0:4]
-        part2 = card_number[4:6]
-        part3 = card_number[-4:]
-
-        return f"{part1} {part2}** **** {part3}"
-    else:
-        print(*["❌ " + error for error in errors], sep="\n")
-        return ""
+    pattern = r'\b(\d{4})(\d{2})(\d{6})(\d{4})\b'
+    replacement = r'\1 \2** **** \4'
+    return re.sub(pattern, replacement, card_data)
 
 
-def get_mask_account(account_number: Union[int, str]) -> str:
+def get_mask_account(account_data: str) -> str:
     """
     Функция маскировки номера банковского счета
     Оставляет видимым только последние 4 цифры
-    🦧 Отдельную функцию валидации прикручивать не стал. Скучно .
-    🐼 Тороплюсь делаю уроки до более интересных заданий
-    Args:
-        account_number (Union[int, str]): число или строка из 16 цифр
-
-    Returns:
-        str: замаскированный номер
     """
-    if isinstance(account_number, int):
-        account_number = str(account_number)
-    if len(account_number) >= 4:
-        return f"**{str(account_number)[-4:]}"
-    else:
-        print(f"Неверный формат счёта клиента")
-        return ""
+    pattern = r'\b(\d{16})(\d{4})\b'
+    replacement = r'**\2'
+    return re.sub(pattern, replacement, account_data)
 
 
 def validator(card_number: str) -> tuple[list[str], bool]:
@@ -84,8 +59,3 @@ def validator(card_number: str) -> tuple[list[str], bool]:
         is_valid = False
 
     return errors, is_valid
-
-
-# print(get_mask_card_number("1234567890123456"))
-# print(get_mask_card_number("12srdgadf56"))
-# print(get_mask_account("73654108430135874305"))

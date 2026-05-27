@@ -1,25 +1,23 @@
 import re
 
 
+from masks import get_mask_card_number, get_mask_account
+
+
 def mask_account_card(text_data: str) -> str:
     """
     Функция принимает любую строку, в которой имеется 16тизначный номер карты
-    или 20ти значным номер счёта и возвращает их маску
+    или 20ти значным номер счёта и определяет куда дальше направлять
     """
-    card_match = re.search(r"\b\d{16}\b", text_data)
-    if card_match:
-        card_number = card_match.group()
-        card_mask = card_number[0:6] + "*" * 6 + card_number[-4:]
+    mask = ''
 
-        # Добавляем пробелы после каждого 4‑го символа
-        return " ".join(card_mask[i:i + 4] for i in range(0, len(card_mask), 4))
+    if bool(re.search(r"\b\d{16}\b", text_data)):
+        mask = get_mask_card_number(text_data)
 
-    account_match = re.search(r"\b\d{20}\b", text_data)
-    if account_match:
-        account = account_match.group()
-        return "**" + account[-4:]
+    if bool(re.search(r"\b\d{20}\b", text_data)):
+        mask = get_mask_account(text_data)
 
-    return "No data"
+    return mask
 
 
 def get_date(date_str: str) -> str:
@@ -38,4 +36,5 @@ def get_date(date_str: str) -> str:
 
 if __name__ == "__main__":
     print(mask_account_card("Visa Platinum 7000792289606361"))
+    print(mask_account_card("Счет 73654108430135874305"))
     print(get_date("2024-03-11T02:26:18.671407"))
