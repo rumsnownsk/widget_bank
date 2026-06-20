@@ -2,6 +2,7 @@ import re
 
 from src.masks import get_mask_account, get_mask_card_number
 from src.processing import filter_by_state, sort_by_date
+from datetime import datetime
 
 
 def mask_account_card(text_data: str) -> str:
@@ -11,12 +12,13 @@ def mask_account_card(text_data: str) -> str:
     После первого найденного номера обрабатывает его и возвращает текст до номера
     плюс замаскированный номер — без остальной части строки
     """
+    card_found = bool(re.search(r"\b(\d{16})\b", text_data))
+    account_found = bool(re.search(r"\b(\d{20})\b", text_data))
 
-    if not re.search(r"\b(\d{16})\b", text_data) and not re.search(r"\b(\d{20})\b", text_data):
-        return ""
-
-    if re.search(r"\b(\d{16})\b", text_data) and re.search(r"\b(\d{20})\b", text_data):
+    if card_found and account_found:
         return "error: invalid format"
+    if not card_found and not account_found:
+        return ""
 
     # ищем 16ти значный номер карты в строке
     card_match = re.search(r"\b(\d{16})\b", text_data)
@@ -44,11 +46,16 @@ def get_date(date_str: str) -> str:
     :param date_str:
     :return:
     """
+
     date_match = re.search(r"(\d{4})-(\d{2})-(\d{2})", date_str)
     if date_match:
-        return f"{date_match.group(3)}.{date_match.group(2)}.{date_match.group(1)}"
-    else:
-        return f"в строке '{date_str}' дата не найдена"
+        year, month, day = map(int, date_match.groups())
+        try:
+            datetime(year, month, day)  # валидация даты
+            return f"{day:02d}.{month:02d}.{year}"
+        except ValueError:
+            return "error: invalid format"
+    return "в строке дата формата 'YYYY-MM-DD' не найдена"
 
 
 if __name__ == "__main__":
