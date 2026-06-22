@@ -1,6 +1,4 @@
-import re
 from datetime import datetime
-
 from typing import Literal
 
 
@@ -25,7 +23,7 @@ def filter_by_state(data: list, state: Literal["EXECUTED", "CANCELED"] = "EXECUT
     for item in data:
         if not isinstance(item, dict):
             continue
-        #проверка наличия ключа 'state' и его значение
+        # проверка наличия ключа 'state' и его значение
         item_state = item.get("state")
         if isinstance(item_state, str) and item_state == state:
             result.append(item)
@@ -54,6 +52,7 @@ def sort_by_date(data: list, sort_by: Literal["from_last", "from_first"] = "from
     if sort_by not in ["from_last", "from_first"]:
         raise ValueError("Parameter 'sort_by' must be 'from_last' or 'from_first'")
 
+    # проверка (блоком Try->Catch), что имеющаяся дата, в принципе, парсится
     def parse_date(el: dict) -> datetime | None:
         date_str = el.get("date")
 

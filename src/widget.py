@@ -1,8 +1,8 @@
 import re
+from datetime import datetime
 
 from src.masks import get_mask_account, get_mask_card_number
 from src.processing import filter_by_state, sort_by_date
-from datetime import datetime
 
 
 def mask_account_card(text_data: str) -> str:
