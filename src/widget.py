@@ -1,23 +1,42 @@
 import re
+from datetime import datetime
 
-from masks import get_mask_account, get_mask_card_number
-from processing import filter_by_state, sort_by_date
+from src.masks import get_mask_account, get_mask_card_number
+from src.processing import filter_by_state, sort_by_date
 
 
 def mask_account_card(text_data: str) -> str:
     """
     Функция принимает любую строку, в которой имеется 16тизначный номер карты
     или 20ти значным номер счёта и определяет куда дальше направлять
+    После первого найденного номера обрабатывает его и возвращает текст до номера
+    плюс замаскированный номер — без остальной части строки
     """
-    mask = ""
+    card_found = bool(re.search(r"\b(\d{16})\b", text_data))
+    account_found = bool(re.search(r"\b(\d{20})\b", text_data))
 
-    if bool(re.search(r"\b\d{16}\b", text_data)):
-        mask = get_mask_card_number(text_data)
+    if card_found and account_found:
+        return "error: invalid format"
+    if not card_found and not account_found:
+        return ""
 
-    if bool(re.search(r"\b\d{20}\b", text_data)):
-        mask = get_mask_account(text_data)
+    # ищем 16ти значный номер карты в строке
+    card_match = re.search(r"\b(\d{16})\b", text_data)
+    if card_match:
+        card_number = card_match.group(1)
+        masked_card = get_mask_card_number(card_number)
+        start, end = card_match.span()
+        return text_data[:start] + masked_card
 
-    return mask
+    # ищем 20ти значный номер счёта в строке
+    account_match = re.search(r"\b(\d{20})\b", text_data)
+    if account_match:
+        account_number = account_match.group(1)
+        masked_account = get_mask_account(account_number)
+        start, end = account_match.span()
+        return text_data[:start] + masked_account
+
+    return ""
 
 
 def get_date(date_str: str) -> str:
@@ -27,14 +46,21 @@ def get_date(date_str: str) -> str:
     :param date_str:
     :return:
     """
+
     date_match = re.search(r"(\d{4})-(\d{2})-(\d{2})", date_str)
     if date_match:
-        return f"{date_match.group(3)}.{date_match.group(2)}.{date_match.group(1)}"
-    else:
-        return f"в строке '{date_str}' дата не найдена"
+        year, month, day = map(int, date_match.groups())
+        try:
+            datetime(year, month, day)  # валидация даты
+            return f"{day:02d}.{month:02d}.{year}"
+        except ValueError:
+            return "error: invalid format"
+    return "в строке дата формата 'YYYY-MM-DD' не найдена"
 
 
 if __name__ == "__main__":
+    # print(mask_account_card("Карта 1234567890123456 и ещё 9876543210000000"))
+    # print(mask_account_card("Счет 12345678901234567890 и карта 1111222233334444"))
     print(mask_account_card("Visa Platinum 7000792289606361"))
     print(mask_account_card("Счет 73654108430135874305"))
     print(get_date("2024-03-11T02:26:18.671407"))
