@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+import random
 
 base_dir = Path(__file__).resolve().parent.parent
 file_path = base_dir / "data" / "transactions.json"
@@ -48,4 +49,17 @@ def transaction_descriptions(data):
 
 for i in transaction_descriptions(transactions_json):
     print(i)
+
+print('\n')
+print("========= генерируем случайные номера банковских карт ======== ")
+
+def card_number_generator(count_card):
+    def four_digits():
+        digits = [str(random.randint(0, 9)) for _ in range(4)]
+        return "".join(digits)
+    for _ in range(count_card):
+        yield f"{four_digits()} {four_digits()} {four_digits()} {four_digits()}"
+
+for number_card in card_number_generator(5):
+    print(number_card)
 
