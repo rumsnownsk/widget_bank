@@ -1,6 +1,7 @@
 import json
 import random
 from pathlib import Path
+from unittest import result
 
 import pytest
 
@@ -21,57 +22,57 @@ else:
     "value, result",
     [
         (
-            transactions_json,
-            [
-                {
-                    "id": 939719570,
-                    "state": "EXECUTED",
-                    "date": "2018-06-30T02:08:58.425572",
-                    "operationAmount": {"amount": "9824.07", "currency": {"name": "USD", "code": "USD"}},
-                    "description": "Перевод организации",
-                    "from": "Счет 75106830613657916952",
-                    "to": "Счет 11776614605963066702",
-                    "type": "INTERNAL_TRANSFER",
-                    "category": "BUSINESS_PAYMENTS",
-                    "tags": ["payment", "supplier"],
-                    "fee": {"amount": "0.00", "currency": "USD"},
-                    "paymentSystemId": "PS-20180630-001234",
-                    "processingStatus": "COMPLETED",
-                    "reference": "INV-2018-654321",
-                },
-                {
-                    "id": 142264268,
-                    "state": "EXECUTED",
-                    "date": "2019-04-04T23:20:05.206878",
-                    "operationAmount": {"amount": "79114.93", "currency": {"name": "USD", "code": "USD"}},
-                    "description": "Перевод со счета на счет",
-                    "from": "Счет 19708645243227258542",
-                    "to": "Счет 75651667383060284188",
-                    "type": "ACCOUNT_TO_ACCOUNT",
-                    "category": "INTERNAL_FUNDS",
-                    "tags": ["transfer", "personal"],
-                    "fee": {"amount": "15.00", "currency": "USD"},
-                    "paymentSystemId": "PS-20190404-009876",
-                    "processingStatus": "COMPLETED",
-                    "reference": None,
-                },
-                {
-                    "id": 774488332,
-                    "state": "EXECUTED",
-                    "date": "2024-02-14T12:12:12.121212",
-                    "operationAmount": {"amount": "199.99", "currency": {"name": "USD", "code": "USD"}},
-                    "description": "Онлайн-покупка подписки",
-                    "from": "Карта 411111******1111",
-                    "to": "Merchant 1234567890",
-                    "type": "CARD_PAYMENT",
-                    "category": "SUBSCRIPTIONS",
-                    "tags": ["subscription", "online"],
-                    "fee": {"amount": "0.00", "currency": "USD"},
-                    "paymentSystemId": "PS-20240214-002211",
-                    "processingStatus": "COMPLETED",
-                    "reference": "SUB-2024-FEB",
-                },
-            ],
+                transactions_json,
+                [
+                    {
+                        "id": 939719570,
+                        "state": "EXECUTED",
+                        "date": "2018-06-30T02:08:58.425572",
+                        "operationAmount": {"amount": "9824.07", "currency": {"name": "USD", "code": "USD"}},
+                        "description": "Перевод организации",
+                        "from": "Счет 75106830613657916952",
+                        "to": "Счет 11776614605963066702",
+                        "type": "INTERNAL_TRANSFER",
+                        "category": "BUSINESS_PAYMENTS",
+                        "tags": ["payment", "supplier"],
+                        "fee": {"amount": "0.00", "currency": "USD"},
+                        "paymentSystemId": "PS-20180630-001234",
+                        "processingStatus": "COMPLETED",
+                        "reference": "INV-2018-654321",
+                    },
+                    {
+                        "id": 142264268,
+                        "state": "EXECUTED",
+                        "date": "2019-04-04T23:20:05.206878",
+                        "operationAmount": {"amount": "79114.93", "currency": {"name": "USD", "code": "USD"}},
+                        "description": "Перевод со счета на счет",
+                        "from": "Счет 19708645243227258542",
+                        "to": "Счет 75651667383060284188",
+                        "type": "ACCOUNT_TO_ACCOUNT",
+                        "category": "INTERNAL_FUNDS",
+                        "tags": ["transfer", "personal"],
+                        "fee": {"amount": "15.00", "currency": "USD"},
+                        "paymentSystemId": "PS-20190404-009876",
+                        "processingStatus": "COMPLETED",
+                        "reference": None,
+                    },
+                    {
+                        "id": 774488332,
+                        "state": "EXECUTED",
+                        "date": "2024-02-14T12:12:12.121212",
+                        "operationAmount": {"amount": "199.99", "currency": {"name": "USD", "code": "USD"}},
+                        "description": "Онлайн-покупка подписки",
+                        "from": "Карта 411111******1111",
+                        "to": "Merchant 1234567890",
+                        "type": "CARD_PAYMENT",
+                        "category": "SUBSCRIPTIONS",
+                        "tags": ["subscription", "online"],
+                        "fee": {"amount": "0.00", "currency": "USD"},
+                        "paymentSystemId": "PS-20240214-002211",
+                        "processingStatus": "COMPLETED",
+                        "reference": "SUB-2024-FEB",
+                    },
+                ],
         ),
     ],
 )
@@ -107,3 +108,29 @@ def test_transaction_descriptions():
 
 def test_transaction_descriptions_empty_json(empty_json):
     assert list(transaction_descriptions(empty_json)) == []
+
+
+@pytest.mark.parametrize("start, end, list_cards", [
+    (1, 10, [
+        "0000 0000 0000 0001",
+        "0000 0000 0000 0002",
+        "0000 0000 0000 0003",
+        "0000 0000 0000 0004",
+        "0000 0000 0000 0005",
+        "0000 0000 0000 0006",
+        "0000 0000 0000 0007",
+        "0000 0000 0000 0008",
+        "0000 0000 0000 0009"
+    ]),
+    (5, 5, [
+    ]),
+])
+def test_card_number_generator(start, end, list_cards):
+    assert list(card_number_generator(start, end)) == list_cards
+
+def test_card_number_generator_invalid_range():
+    with pytest.raises(ValueError):
+        list(card_number_generator(-1, 10))
+
+    with pytest.raises(ValueError):
+        list(card_number_generator(0, 10**16 + 1))

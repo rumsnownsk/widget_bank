@@ -62,18 +62,20 @@ print("\n")
 print("========= генерируем случайные номера банковских карт ======== ")
 
 
-def card_number_generator(start=0, end=9):
+def card_number_generator(start=0, end=10**16):
     """
-    Генератор для вывода случайных номеров банковских карт.
+    Генератор для вывода последовательного набора номеров
+    банковских карт в формате XXXX XXXX XXXX XXXX
     """
+    if not (0 <= start <= end <= 10**16):
+        raise ValueError("incorrect range")
 
-    def four_digits():
-        digits = [str(random.randint(start, end)) for _ in range(4)]
-        return "".join(digits)
+    for d in range(start, end):
+        count_zero = 16 - int(len(str(d)))
+        num_card = ("0" * count_zero) + str(d)
 
-    for _ in range(5):
-        yield f"{four_digits()} {four_digits()} {four_digits()} {four_digits()}"
+        yield f"{num_card[0:4]} {num_card[4:8]} {num_card[8:12]} {num_card[-4:]}"
 
 
-for number_card in card_number_generator(1, 2):
+for number_card in card_number_generator(1, 10):
     print(number_card)
