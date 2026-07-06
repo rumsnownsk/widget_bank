@@ -122,3 +122,21 @@ status: ERROR
 inputs: (), {}
 error_type: Exception
 error_message: Всё сломалось!!
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: summ_nums
+time_start: 06-07-2026 18:34:49
+time_end: 06-07-2026 18:34:49
+duration_sec: 0.0000
+status: OK
+result: 5
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: fail
+time_start: 06-07-2026 18:34:49
+time_end: 06-07-2026 18:34:49
+duration_sec: 0.0000
+status: ERROR
+inputs: (), {}
+error_type: Exception
+error_message: Всё сломалось!!
