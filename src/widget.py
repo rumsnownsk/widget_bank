@@ -1,10 +1,12 @@
 import re
 from datetime import datetime
 
+from src.decorators import log
 from src.masks import get_mask_account, get_mask_card_number
 from src.processing import filter_by_state, sort_by_date
 
 
+@log(filename="tmp/logs.txt")
 def mask_account_card(text_data: str) -> str:
     """
     Функция принимает любую строку, в которой имеется 16тизначный номер карты
@@ -39,6 +41,7 @@ def mask_account_card(text_data: str) -> str:
     return ""
 
 
+@log(filename="logs.txt")
 def get_date(date_str: str) -> str:
     """
     Функция принимает дату в формате 2024-03-11T02:26:18.671407,

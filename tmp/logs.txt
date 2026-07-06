@@ -1,0 +1,16 @@
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 06-07-2026 17:34:25
+time_end: 06-07-2026 17:34:25
+duration_sec: 0.0003
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 06-07-2026 17:34:25
+time_end: 06-07-2026 17:34:25
+duration_sec: 0.0001
+status: OK
+result: Счет **4305
