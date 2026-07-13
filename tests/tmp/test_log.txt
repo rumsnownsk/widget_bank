@@ -1,0 +1,142 @@
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: summ_nums
+time_start: 06-07-2026 17:34:59
+time_end: 06-07-2026 17:34:59
+duration_sec: 0.0000
+status: OK
+result: 5
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: summ_nums
+time_start: 06-07-2026 17:43:18
+time_end: 06-07-2026 17:43:18
+duration_sec: 0.0000
+status: OK
+result: 5
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: summ_nums
+time_start: 06-07-2026 17:45:01
+time_end: 06-07-2026 17:45:01
+duration_sec: 0.0000
+status: OK
+result: 5
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: summ_nums
+time_start: 06-07-2026 17:45:20
+time_end: 06-07-2026 17:45:20
+duration_sec: 0.0000
+status: OK
+result: 5
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: summ_nums
+time_start: 06-07-2026 17:46:02
+time_end: 06-07-2026 17:46:02
+duration_sec: 0.0000
+status: OK
+result: 5
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: fail
+time_start: 06-07-2026 17:51:21
+time_end: 06-07-2026 17:51:21
+duration_sec: 0.0000
+status: ERROR
+inputs: (), {}
+error_type: CustomError
+error_message: Всё сломалось!!
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: fail
+time_start: 06-07-2026 17:52:49
+time_end: 06-07-2026 17:52:49
+duration_sec: 0.0000
+status: ERROR
+inputs: (), {}
+error_type: Exception
+error_message: Всё сломалось!!
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: summ_nums
+time_start: 06-07-2026 17:54:10
+time_end: 06-07-2026 17:54:10
+duration_sec: 0.0000
+status: OK
+result: 5
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: fail
+time_start: 06-07-2026 17:54:10
+time_end: 06-07-2026 17:54:10
+duration_sec: 0.0000
+status: ERROR
+inputs: (), {}
+error_type: Exception
+error_message: Всё сломалось!!
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: fail
+time_start: 06-07-2026 17:59:11
+time_end: 06-07-2026 17:59:11
+duration_sec: 0.0000
+status: ERROR
+inputs: (), {}
+error_type: Exception
+error_message: Всё сломалось!!
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: summ_nums
+time_start: 06-07-2026 18:01:55
+time_end: 06-07-2026 18:01:55
+duration_sec: 0.0000
+status: OK
+result: 5
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: fail
+time_start: 06-07-2026 18:01:55
+time_end: 06-07-2026 18:01:55
+duration_sec: 0.0000
+status: ERROR
+inputs: (), {}
+error_type: Exception
+error_message: Всё сломалось!!
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: summ_nums
+time_start: 06-07-2026 18:02:41
+time_end: 06-07-2026 18:02:41
+duration_sec: 0.0000
+status: OK
+result: 5
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: fail
+time_start: 06-07-2026 18:02:41
+time_end: 06-07-2026 18:02:41
+duration_sec: 0.0000
+status: ERROR
+inputs: (), {}
+error_type: Exception
+error_message: Всё сломалось!!
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: summ_nums
+time_start: 06-07-2026 18:34:49
+time_end: 06-07-2026 18:34:49
+duration_sec: 0.0000
+status: OK
+result: 5
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/tests/test_decorators.py
+func_name: fail
+time_start: 06-07-2026 18:34:49
+time_end: 06-07-2026 18:34:49
+duration_sec: 0.0000
+status: ERROR
+inputs: (), {}
+error_type: Exception
+error_message: Всё сломалось!!

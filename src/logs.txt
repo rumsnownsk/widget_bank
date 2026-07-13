@@ -1,0 +1,32 @@
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 06-07-2026 17:07:25
+time_end: 06-07-2026 17:07:25
+duration_sec: 0.0001
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 06-07-2026 17:07:37
+time_end: 06-07-2026 17:07:37
+duration_sec: 0.0002
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 06-07-2026 17:07:48
+time_end: 06-07-2026 17:07:48
+duration_sec: 0.0001
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 06-07-2026 17:08:46
+time_end: 06-07-2026 17:08:46
+duration_sec: 0.0002
+status: OK
+result: 11.03.2024

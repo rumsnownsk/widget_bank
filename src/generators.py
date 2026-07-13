@@ -1,6 +1,7 @@
 import json
-import random
 from pathlib import Path
+from src.decorators import log
+
 
 base_dir = Path(__file__).resolve().parent.parent
 file_path = base_dir / "data" / "transactions.json"
@@ -16,6 +17,7 @@ print("\n")
 print("========= список транзакций по 'currency_code' (по умолчанию - USD) ======== ")
 
 
+@log(filename="tmp/logs.txt")
 def filter_by_currency(data, currency_code="USD"):
     """
     Генератор для фильтрации транзакций по коду валюты.
@@ -44,6 +46,7 @@ print("\n")
 print("========= возвращаем описание каждой операции по очереди ======== ")
 
 
+@log(filename="tmp/logs.txt")
 def transaction_descriptions(data):
     """
     Генератор для вывода описания транзакции.
@@ -62,6 +65,7 @@ print("\n")
 print("========= генерируем случайные номера банковских карт ======== ")
 
 
+@log(filename="tmp/logs.txt")
 def card_number_generator(start=0, end=10**16):
     """
     Генератор для вывода последовательного набора номеров
