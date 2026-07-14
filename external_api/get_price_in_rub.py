@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-def get_price_in_rub(trn):
+def convert_to_rub(trn):
     """
     Функция возвращает сумму операции в рублях.
 
@@ -90,4 +90,4 @@ transaction = {
     "reference": "PAY-2023-Q4"
 }
 
-print(get_price_in_rub(transaction))
+print(convert_to_rub(transaction))

@@ -1,15 +1,23 @@
 import json
 
 from pathlib import Path
+from typing import List, Dict, Any
 
-base_dir = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
-def get_transactions(filename="transactions.json") -> list:
+
+def load_transactions(
+        filename: str = "transactions.json",
+        base_dir: Path | None = None
+    ) -> list[Dict[str, Any]]:
     """
     Функция принимает файл с данными формата json и возвращает json данные
+    :param base_dir:
     :param filename:
     :return:
     """
+    if base_dir is None:
+        base_dir = BASE_DIR
     file_path = base_dir / "data" / filename
 
     if not file_path.exists():
@@ -25,3 +33,6 @@ def get_transactions(filename="transactions.json") -> list:
         return []
 
     return transactions_json
+
+
+print(load_transactions())

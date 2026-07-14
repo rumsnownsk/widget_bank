@@ -1,5 +1,8 @@
 import json
 from pathlib import Path
+
+import pytest
+
 from src.decorators import log
 
 
@@ -54,8 +57,10 @@ def transaction_descriptions(data):
     :param data: Итерируемый набор транзакций (list[dict])
     :return: Генератор строк — описаний транзакций
     """
-    for i in data:
-        yield i["description"]
+    for item in data:
+        desc = item.get("description")
+        if desc:
+            yield desc
 
 
 for i in transaction_descriptions(transactions_json):
