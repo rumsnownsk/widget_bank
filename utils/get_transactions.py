@@ -1,9 +1,15 @@
 import json
+
 from pathlib import Path
 
 base_dir = Path(__file__).resolve().parent.parent
 
-def get_transactions(filename):
+def get_transactions(filename="transactions.json") -> list:
+    """
+    Функция принимает файл с данными формата json и возвращает json данные
+    :param filename:
+    :return:
+    """
     file_path = base_dir / "data" / filename
 
     if not file_path.exists():
@@ -19,6 +25,3 @@ def get_transactions(filename):
         return []
 
     return transactions_json
-
-
-print(get_transactions('transactions.json'))
