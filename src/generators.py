@@ -5,7 +5,6 @@ import pytest
 
 from src.decorators import log
 
-
 base_dir = Path(__file__).resolve().parent.parent
 file_path = base_dir / "data" / "transactions.json"
 

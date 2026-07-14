@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 from unittest.mock import Mock
+
 import pytest
 
 from utils.load_transactions import load_transactions
