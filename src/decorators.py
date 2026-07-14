@@ -15,6 +15,7 @@ def log(filename=None):
     Папка для логов создаётся относительно корня проекта (определяется автоматически по
     расположению файла decorators.py). Если папка не существует — она будет создана.
     """
+
     def decor(func):
         @wraps(func)
         def wrapper(*args, **kwargs):
@@ -38,7 +39,7 @@ def log(filename=None):
                 f"func_name: {func.__name__}",
                 f"time_start: {time_start}",
                 f"time_end: {time_end}",
-                f"duration_sec: {duration:.4f}"
+                f"duration_sec: {duration:.4f}",
             ]
             if error is not None:
                 log_lines.append("status: ERROR")
@@ -73,5 +74,7 @@ def log(filename=None):
                 raise error
 
             return result
+
         return wrapper
+
     return decor

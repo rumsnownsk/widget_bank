@@ -1,8 +1,6 @@
 import json
 from pathlib import Path
 
-import pytest
-
 from src.decorators import log
 
 base_dir = Path(__file__).resolve().parent.parent
