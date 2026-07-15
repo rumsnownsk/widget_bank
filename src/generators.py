@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
-from src.decorators import log
 
+from src.decorators import log
 
 base_dir = Path(__file__).resolve().parent.parent
 file_path = base_dir / "data" / "transactions.json"
@@ -54,8 +54,10 @@ def transaction_descriptions(data):
     :param data: Итерируемый набор транзакций (list[dict])
     :return: Генератор строк — описаний транзакций
     """
-    for i in data:
-        yield i["description"]
+    for item in data:
+        desc = item.get("description")
+        if desc:
+            yield desc
 
 
 for i in transaction_descriptions(transactions_json):

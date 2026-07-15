@@ -174,3 +174,3179 @@ time_end: 06-07-2026 18:34:49
 duration_sec: 0.0000
 status: OK
 result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:28:18
+time_end: 14-07-2026 13:28:18
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x742d639d2200>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:28:18
+time_end: 14-07-2026 13:28:18
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x742d637cc1e0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:36:24
+time_end: 14-07-2026 13:36:24
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x744950912110>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:36:24
+time_end: 14-07-2026 13:36:24
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7449507342b0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:38:30
+time_end: 14-07-2026 13:38:30
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x75971ef72110>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:38:30
+time_end: 14-07-2026 13:38:30
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x75971ed2e0a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:38:30
+time_end: 14-07-2026 13:38:30
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x75971ef80dc0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:38:30
+time_end: 14-07-2026 13:38:30
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x75971ef70e50>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:38:31
+time_end: 14-07-2026 13:38:31
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x75971c5234c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:38:31
+time_end: 14-07-2026 13:38:31
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x75971c5234c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:38:31
+time_end: 14-07-2026 13:38:31
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x75971c3ec740>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:38:31
+time_end: 14-07-2026 13:38:31
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x75971c3ece40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:38:31
+time_end: 14-07-2026 13:38:31
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x75971ec25c60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:38:31
+time_end: 14-07-2026 13:38:31
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x75971ec25c60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:38:31
+time_end: 14-07-2026 13:38:31
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x75971ec25c60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:38:31
+time_end: 14-07-2026 13:38:31
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x75971ec25c60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:38:31
+time_end: 14-07-2026 13:38:31
+duration_sec: 0.0002
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:38:31
+time_end: 14-07-2026 13:38:31
+duration_sec: 0.0001
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:38:31
+time_end: 14-07-2026 13:38:31
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:38:31
+time_end: 14-07-2026 13:38:31
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:38:31
+time_end: 14-07-2026 13:38:31
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:38:31
+time_end: 14-07-2026 13:38:31
+duration_sec: 0.0000
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:38:31
+time_end: 14-07-2026 13:38:31
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:38:31
+time_end: 14-07-2026 13:38:31
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x76a1c763e110>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x76a1c73f60a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x76a1c764cdc0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x76a1c763ce50>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x76a1c4b334c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x76a1c4b334c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x76a1c4a38740>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x76a1c4a38e40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x76a1c6b09c60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x76a1c6b09c60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x76a1c6b09c60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x76a1c6b09c60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0002
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0001
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0001
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:39:28
+time_end: 14-07-2026 13:39:28
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x705e8d392200>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x705e8d3b9080>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x705e8d3a0dc0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x705e8d390e50>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x705e8c9ef5b0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x705e8c9ef5b0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x705e8a94b100>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x705e8a94b100>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x705e8d01dc60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x705e8d01dc60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x705e8d01dc60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x705e8d01dc60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0001
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0001
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:41:08
+time_end: 14-07-2026 13:41:08
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:44:54
+time_end: 14-07-2026 13:44:54
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x78c169a8e200>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:44:54
+time_end: 14-07-2026 13:44:54
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x78c1698782b0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:47:25
+time_end: 14-07-2026 13:47:25
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x796956499f30>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:47:25
+time_end: 14-07-2026 13:47:25
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7969564ea810>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:50:55
+time_end: 14-07-2026 13:50:55
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x78f93e8b1e40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:50:55
+time_end: 14-07-2026 13:50:55
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x78f93e906810>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x78417c581e40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x78417c2ee810>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x78417c2d43a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x78417a127b50>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x784179ffd300>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x784179ffd300>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x78417a031080>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x78417a0312f0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x78417c01f0a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x78417c01f0a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x78417c01d900>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x78417c01d900>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0022
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0001
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0001
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0001
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 13:59:48
+time_end: 14-07-2026 13:59:48
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:02:22
+time_end: 14-07-2026 14:02:22
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x75a324b85e40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 14:02:22
+time_end: 14-07-2026 14:02:22
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x75a3248c6960>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:04:46
+time_end: 14-07-2026 14:04:46
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7522b1789e40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 14:04:46
+time_end: 14-07-2026 14:04:46
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7522b14ca960>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7998ffd85e40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7998ffac6960>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7998ffad83a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7998fd92bb50>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7998fd801300>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7998fd801300>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7998fd7e66c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7998fd7e6f80>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7998ff8230a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7998ff8230a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7998ff821900>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7998ff821900>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0018
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0001
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:06:17
+time_end: 14-07-2026 14:06:17
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x73f9b04b5e40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x73f9b04de960>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x73f9b04f03a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x73f9ae343b50>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x73f9ae255300>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x73f9ae255300>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x73f9ae23a6c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x73f9ae23af80>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0006
+status: OK
+result: <generator object card_number_generator at 0x73f9b023b0a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x73f9b023b0a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x73f9b0239900>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x73f9b0239900>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0024
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0001
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0001
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:06:36
+time_end: 14-07-2026 14:06:36
+duration_sec: 0.0001
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:22:37
+time_end: 14-07-2026 14:22:37
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7b9a6eab1e40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 14:22:37
+time_end: 14-07-2026 14:22:37
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7b9a6eadab20>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:22:37
+time_end: 14-07-2026 14:22:37
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7b9a6eaec4c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x79d4fe0b1e40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x79d4fe0da880>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x79d4fe0ec3a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x79d4fbf2bc40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x79d4fbe04a90>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x79d4fbe04b80>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x79d4fbde5d20>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x79d4fbde4580>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x79d4fde16440>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x79d4fde16440>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x79d4fde15900>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x79d4fde15900>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0019
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0001
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0001
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0001
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:24:07
+time_end: 14-07-2026 14:24:07
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7d62e0099e40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7d62e00c2880>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7d62e00d43a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7d62dfd13b50>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7d62dfd13b50>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7d62dfd13b50>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7d62ddd21c40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7d62ddd21c40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7d62dfdfda20>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7d62dfdfda20>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7d62dfdfd900>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7d62dfdfd900>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0011
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 14:37:18
+time_end: 14-07-2026 14:37:18
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:21:23
+time_end: 14-07-2026 15:21:23
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7f6cac089e40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 15:21:23
+time_end: 14-07-2026 15:21:23
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7f6cabdcaa40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:21:23
+time_end: 14-07-2026 15:21:23
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7f6cabddc3a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7f6ca99cee30>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7f6ca99cee30>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7f6ca99cee30>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7f6ca99ffae0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7f6ca99ffae0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7f6cab92e8c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7f6cab92e8c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7f6cab92e7a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7f6cab92e7a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0012
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0001
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0000
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:21:24
+time_end: 14-07-2026 15:21:24
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:25:37
+time_end: 14-07-2026 15:25:37
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7920eeeb1f30>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 15:25:37
+time_end: 14-07-2026 15:25:37
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7920eeedadc0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:25:37
+time_end: 14-07-2026 15:25:37
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7920eeeec3a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7920ee8ef010>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7920ee8ef010>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7920ee8ef010>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7920ec917ae0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7920ec917ae0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7920ee9ce9e0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7920ee9ce9e0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7920ee9ce8c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7920ee9ce8c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0019
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0001
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0000
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:25:39
+time_end: 14-07-2026 15:25:39
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:28:09
+time_end: 14-07-2026 15:28:09
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x794debe8df30>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 15:28:09
+time_end: 14-07-2026 15:28:09
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x794debbcedc0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:28:09
+time_end: 14-07-2026 15:28:09
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x794debbe03a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x794de97d2d40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x794de97d2d40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x794de97d2d40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x794de97ffa00>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x794de97ffa00>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x794deb7328c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x794deb7328c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x794deb7327a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x794deb7327a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0012
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0000
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0001
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:28:11
+time_end: 14-07-2026 15:28:11
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:36:37
+time_end: 14-07-2026 15:36:37
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7e5b4e08df30>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 15:36:37
+time_end: 14-07-2026 15:36:37
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7e5b4ddcedc0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:36:37
+time_end: 14-07-2026 15:36:37
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7e5b4dde03a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7e5b4d866d40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7e5b4d866d40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7e5b4d866d40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7e5b4d68bbc0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7e5b4d68bbc0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7e5b4d93e8c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7e5b4d93e8c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7e5b4d93e7a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7e5b4d93e7a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0016
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0000
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0001
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:36:38
+time_end: 14-07-2026 15:36:38
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:41:39
+time_end: 14-07-2026 15:41:39
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7b5f82585f30>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 15:41:39
+time_end: 14-07-2026 15:41:39
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7b5f822c6dc0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:41:39
+time_end: 14-07-2026 15:41:39
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7b5f822d83a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7b5f81d0ee30>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7b5f81d0ee30>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7b5f81d0ee30>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7b5f81d37ca0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7b5f81d37ca0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7b5f81df28c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7b5f81df28c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7b5f81df27a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7b5f81df27a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0018
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0001
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0000
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 14-07-2026 15:41:41
+time_end: 14-07-2026 15:41:41
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 13:49:14
+time_end: 15-07-2026 13:49:14
+duration_sec: 0.0002
+status: OK
+result: <generator object filter_by_currency at 0x70fde1395e40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 13:49:14
+time_end: 15-07-2026 13:49:14
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x70fde10d6b20>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 13:49:14
+time_end: 15-07-2026 13:49:14
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x70fde11143a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x70fde0ab7010>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x70fde0ab7010>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x70fde0ab7010>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x70fde08dfd80>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x70fde08dfd80>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x70fde0bae8c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x70fde0bae8c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x70fde0bae7a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x70fde0bae7a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0020
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0001
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0001
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0001
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0001
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 13:49:16
+time_end: 15-07-2026 13:49:16
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0001
+status: OK
+result: <generator object filter_by_currency at 0x7ba248bea6b0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7ba248c07e60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0001
+status: OK
+result: <generator object card_number_generator at 0x7ba248c30ee0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7ba248b7bc40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7ba248b7bc40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7ba248b7bc40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7ba246b1bd80>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7ba246b1bd80>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7ba248c328c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7ba248c328c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7ba248c32b00>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7ba248c32b00>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0012
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0001
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0000
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 13:55:48
+time_end: 15-07-2026 13:55:48
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0001
+status: OK
+result: <generator object filter_by_currency at 0x7027ed86cc70>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7027ed8b0040>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0001
+status: OK
+result: <generator object card_number_generator at 0x7027ed8745e0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7027ee6cd5d0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7027ee6cd5d0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7027ee6cd5d0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7027eb844f20>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7027eb844c80>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7027ed875a20>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7027ed875a20>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7027ed875a20>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7027ed875a20>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0002
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0001
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0000
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:08:41
+time_end: 15-07-2026 14:08:41
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x723be0e9a7a0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x723be0ecbe60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x723be0ee0ee0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x723bdefd7d30>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x723bdefd7d30>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x723bdefd7d30>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x723bdee7f3e0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x723bdee7f3e0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x723be0ee28c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x723be0ee28c0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x723be0ee2b00>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x723be0ee2b00>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0014
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0001
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:08:59
+time_end: 15-07-2026 14:08:59
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7df4027c5210>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7df4027e6c00>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7df4029a7be0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7df40272ab60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7df40272ab60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x7df40272ab60>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7df400786a40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x7df400786a40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7df40282d7e0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7df40282d7e0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7df40282da20>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x7df40282da20>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0020
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0001
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:24:20
+time_end: 15-07-2026 14:24:20
+duration_sec: 0.0001
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x79fc56c99210>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x79fc56cb6180>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x79fc56e9bbe0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x79fc56c12d40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x79fc56c12d40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: filter_by_currency
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: <generator object filter_by_currency at 0x79fc56c12d40>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x79fc54b7edc0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: transaction_descriptions
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: <generator object transaction_descriptions at 0x79fc54b7edc0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x79fc56d057e0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x79fc56d057e0>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x79fc56d05a20>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/generators.py
+func_name: card_number_generator
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: <generator object card_number_generator at 0x79fc56d05a20>
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0011
+status: OK
+result: Visa Platinum 7000 79** **** 6361
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0001
+status: OK
+result: Счет **4305
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: 
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: Карта 1234 56** **** 3456
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 15-07-2026 14:51:05
+time_end: 15-07-2026 14:51:05
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
