@@ -31,4 +31,6 @@ def load_transactions(filename: str = "transactions.json", base_dir: Path | None
     return transactions_json
 
 
-print(load_transactions())
+if __name__ == "__main__":
+
+    print(load_transactions())

@@ -56,8 +56,6 @@ def log(filename=None):
                 log_file_path = base_dir / filename
                 parent_dir = log_file_path.parent
 
-                print(f"this - {parent_dir}")
-
                 if parent_dir:
                     parent_dir.mkdir(parents=True, exist_ok=True)
 

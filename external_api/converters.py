@@ -60,22 +60,23 @@ def convert_to_rub(trn):
 
     return float(result)
 
+if __name__ == "__main__":
 
-transaction = {
-    "id": 663399221,
-    "state": "EXECUTED",
-    "date": "2023-11-03T08:55:22.334455",
-    "operationAmount": {"amount": "210000.00", "currency": {"name": "JPY", "code": "JPY"}},
-    "description": "Выплата зарплаты по ведомости",
-    "from": "Счет 44556677889900112233",
-    "to": "null",
-    "type": "PAYROLL",
-    "category": "PAYROLL_EXPENSES",
-    "tags": ["salary", "payroll"],
-    "fee": {"amount": "1050.00", "currency": "RUB"},
-    "paymentSystemId": "PS-20231103-008877",
-    "processingStatus": "COMPLETED",
-    "reference": "PAY-2023-Q4",
-}
+    transaction = {
+        "id": 663399221,
+        "state": "EXECUTED",
+        "date": "2023-11-03T08:55:22.334455",
+        "operationAmount": {"amount": "210000.00", "currency": {"name": "JPY", "code": "JPY"}},
+        "description": "Выплата зарплаты по ведомости",
+        "from": "Счет 44556677889900112233",
+        "to": "null",
+        "type": "PAYROLL",
+        "category": "PAYROLL_EXPENSES",
+        "tags": ["salary", "payroll"],
+        "fee": {"amount": "1050.00", "currency": "RUB"},
+        "paymentSystemId": "PS-20231103-008877",
+        "processingStatus": "COMPLETED",
+        "reference": "PAY-2023-Q4",
+    }
 
-print(convert_to_rub(transaction))
+    print(convert_to_rub(transaction))
