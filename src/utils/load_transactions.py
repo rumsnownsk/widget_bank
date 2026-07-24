@@ -2,17 +2,13 @@ import json
 from pathlib import Path
 from typing import Any, Dict
 
-from src.loggers import logger_utils
 from src.config import PROJECT_ROOT
-
+from src.loggers import logger_utils
 
 logger = logger_utils()
 
 
-def load_transactions(
-        filename: str = "transactions.json",
-        base_dir: Path | None = None
-) -> list[Dict[str, Any]]:
+def load_transactions(filename: str = "transactions.json", base_dir: Path | None = None) -> list[Dict[str, Any]]:
     """
     Функция принимает файл с данными формата json и возвращает json данные
     :param base_dir:
@@ -35,7 +31,7 @@ def load_transactions(
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             transactions_json = json.load(f)
-            logger.info(f"Чтение файла {file_path} прошло зашибись!" )
+            logger.info(f"Чтение файла {file_path} прошло зашибись!")
     except json.JSONDecodeError:
         logger.error(
             f'Ошибка декодирования файла {file_path} (модуль "%s", функция "%s")', __name__, load_transactions.__name__

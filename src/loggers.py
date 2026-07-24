@@ -15,7 +15,7 @@ def logger_masks():
     logger_object.setLevel(logging.DEBUG)
 
     file_handler = logging.FileHandler(log_file, encoding="utf-8", mode="w")
-    file_formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s: %(message)s ")
+    file_formatter = logging.Formatter(f"{'=' * 30}\n%(asctime)s \n %(name)s \n %(levelname)s: %(message)s")
 
     file_handler.setFormatter(file_formatter)
     logger_object.addHandler(file_handler)
@@ -32,7 +32,7 @@ def logger_utils():
     logger_object.setLevel(logging.DEBUG)
 
     file_handler = logging.FileHandler(log_file, encoding="utf-8", mode="w")
-    file_formatter = logging.Formatter(f"{'='*30 }\n%(asctime)s \n %(name)s \n %(levelname)s: %(message)s ")
+    file_formatter = logging.Formatter(f"{'=' * 30}\n%(asctime)s \n %(name)s \n %(levelname)s: %(message)s")
 
     file_handler.setFormatter(file_formatter)
     logger_object.addHandler(file_handler)
