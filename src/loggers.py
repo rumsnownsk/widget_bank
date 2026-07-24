@@ -11,15 +11,16 @@ def logger_masks():
     # Создаём только папку (не файл!)
     logs_dir.mkdir(parents=True, exist_ok=True)
 
-    l = logging.getLogger("logger_masks")
-    l.setLevel(logging.DEBUG)
+    logger_object = logging.getLogger("logger_masks")
+    logger_object.setLevel(logging.DEBUG)
 
     file_handler = logging.FileHandler(log_file, encoding="utf-8", mode="w")
-    file_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s: %(message)s ')
+    file_formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s: %(message)s ")
 
     file_handler.setFormatter(file_formatter)
-    l.addHandler(file_handler)
-    return l
+    logger_object.addHandler(file_handler)
+    return logger_object
+
 
 def logger_utils():
     logs_dir = PROJECT_ROOT / "logs"
@@ -27,12 +28,12 @@ def logger_utils():
 
     logs_dir.mkdir(parents=True, exist_ok=True)
 
-    l = logging.getLogger("logger_utils")
-    l.setLevel(logging.DEBUG)
+    logger_object = logging.getLogger("logger_utils")
+    logger_object.setLevel(logging.DEBUG)
 
     file_handler = logging.FileHandler(log_file, encoding="utf-8", mode="w")
-    file_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s: %(message)s ')
+    file_formatter = logging.Formatter(f"{'='*30 }\n%(asctime)s \n %(name)s \n %(levelname)s: %(message)s ")
 
     file_handler.setFormatter(file_formatter)
-    l.addHandler(file_handler)
-    return l
+    logger_object.addHandler(file_handler)
+    return logger_object

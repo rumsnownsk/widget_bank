@@ -60,6 +60,7 @@ def convert_to_rub(trn):
 
     return float(result)
 
+
 if __name__ == "__main__":
 
     transaction = {
