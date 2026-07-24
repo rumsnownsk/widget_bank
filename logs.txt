@@ -2398,3 +2398,203 @@ time_end: 15-07-2026 14:51:05
 duration_sec: 0.0000
 status: OK
 result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 10:16:51
+time_end: 24-07-2026 10:16:51
+duration_sec: 0.0001
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 10:28:53
+time_end: 24-07-2026 10:28:53
+duration_sec: 0.0001
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 10:33:31
+time_end: 24-07-2026 10:33:31
+duration_sec: 0.0001
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 11:54:12
+time_end: 24-07-2026 11:54:12
+duration_sec: 0.0001
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 12:25:15
+time_end: 24-07-2026 12:25:15
+duration_sec: 0.0002
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 12:35:45
+time_end: 24-07-2026 12:35:45
+duration_sec: 0.0001
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 12:50:24
+time_end: 24-07-2026 12:50:24
+duration_sec: 0.0001
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:05:12
+time_end: 24-07-2026 13:05:12
+duration_sec: 0.0002
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:26:12
+time_end: 24-07-2026 13:26:12
+duration_sec: 0.0001
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:35:50
+time_end: 24-07-2026 13:35:50
+duration_sec: 0.0001
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:36:41
+time_end: 24-07-2026 13:36:41
+duration_sec: 0.0022
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:36:41
+time_end: 24-07-2026 13:36:41
+duration_sec: 0.0000
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:36:41
+time_end: 24-07-2026 13:36:41
+duration_sec: 0.0000
+status: OK
+result: в строке дата формата 'YYYY-MM-DD' не найдена
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:36:41
+time_end: 24-07-2026 13:36:41
+duration_sec: 0.0000
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:36:41
+time_end: 24-07-2026 13:36:41
+duration_sec: 0.0000
+status: OK
+result: в строке дата формата 'YYYY-MM-DD' не найдена
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:36:41
+time_end: 24-07-2026 13:36:41
+duration_sec: 0.0000
+status: OK
+result: в строке дата формата 'YYYY-MM-DD' не найдена
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:36:41
+time_end: 24-07-2026 13:36:41
+duration_sec: 0.0000
+status: OK
+result: в строке дата формата 'YYYY-MM-DD' не найдена
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:36:41
+time_end: 24-07-2026 13:36:41
+duration_sec: 0.0000
+status: OK
+result: в строке дата формата 'YYYY-MM-DD' не найдена
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:36:41
+time_end: 24-07-2026 13:36:41
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:36:41
+time_end: 24-07-2026 13:36:41
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:36:41
+time_end: 24-07-2026 13:36:41
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:36:41
+time_end: 24-07-2026 13:36:41
+duration_sec: 0.0000
+status: OK
+result: 29.02.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:36:41
+time_end: 24-07-2026 13:36:41
+duration_sec: 0.0000
+status: OK
+result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:36:41
+time_end: 24-07-2026 13:36:41
+duration_sec: 0.0000
+status: OK
+result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 24-07-2026 13:36:41
+time_end: 24-07-2026 13:36:41
+duration_sec: 0.0000
+status: OK
+result: 11.03.2024

@@ -3,7 +3,7 @@ from unittest.mock import patch
 import pytest
 import requests
 
-from external_api.converters import convert_to_rub
+from src.external_api.converters import convert_to_rub
 
 
 @patch("external_api.converters.requests.request")

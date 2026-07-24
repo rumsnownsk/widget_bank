@@ -1,9 +1,10 @@
 import re
 from datetime import datetime
 
-from decorators import log
-from masks import get_mask_account, get_mask_card_number
-from processing import filter_by_state, sort_by_date
+from src.decorators import log
+from src.masks import get_mask_account, get_mask_card_number
+from src.processing import filter_by_state, sort_by_date
+from src.utils.load_transactions import load_transactions
 
 
 @log(filename="tmp/logs.txt")
@@ -88,3 +89,5 @@ if __name__ == "__main__":
             "from_first",
         )
     )
+
+    load_transactions()

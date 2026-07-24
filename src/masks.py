@@ -1,6 +1,6 @@
 import re
 
-from loggers import logger_masks
+from src.loggers import logger_masks
 
 
 logger = logger_masks()
