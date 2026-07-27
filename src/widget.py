@@ -17,7 +17,7 @@ def mask_account_card(text_data: str) -> str:
     """
     if not isinstance(text_data, str):
         return ""
-    
+
     card_found = bool(re.search(r"\b(\d{16})\b", text_data))
     account_found = bool(re.search(r"\b(\d{20})\b", text_data))
 

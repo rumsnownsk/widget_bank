@@ -1,14 +1,14 @@
 import json
 import re
 
-from src.search_operations import get_all_available_states, process_bank_search, is_transfer
-from src.utils.load_transactions import load_transactions
 from src.processing import sort_by_date
-from src.widget import mask_account_card,get_date
+from src.search_operations import get_all_available_states, is_transfer, process_bank_search
+from src.utils.load_transactions import load_transactions
+from src.widget import get_date, mask_account_card
 
 
 def main(data: list[dict]):
-    print('\n')
+    print("\n")
     print("Программа: Привет! Добро пожаловать в программу работы с банковскими транзакциями\n")
 
     # 1. Предложение выбора типа файла для загрузки данных
@@ -43,7 +43,7 @@ def main(data: list[dict]):
 
     print("\nВведите статус, по которому необходимо выполнить фильтрацию, \n или укажите цифру: ")
     confirm_status = True
-    select_state = ''
+    select_state = ""
     while confirm_status:
         raw_select_state = input("Ваш выбор: ")
 
@@ -66,10 +66,11 @@ def main(data: list[dict]):
 
     sorted_by_date = input("Отсортировать операции по дате (по умолчанию - Нет)? (Да/Нет): ").strip()
 
-    direction_sorted = ''
-    if sorted_by_date.lower() == 'да':
+    direction_sorted = ""
+    if sorted_by_date.lower() == "да":
         direction_sorted = input(
-            "Отсортировать по возрастанию(по умолчанию) или по убыванию? (по возрастанию/по убыванию): ").strip()
+            "Отсортировать по возрастанию(по умолчанию) или по убыванию? (по возрастанию/по убыванию): "
+        ).strip()
 
     filter_by_rub = input("Выводить только рублевые транзакции (по умолчанию - Нет)? (Да/Нет): ").strip()
 
@@ -83,29 +84,25 @@ def main(data: list[dict]):
     result_data = process_bank_search(data, select_state)
 
     # сортировка списка по дате возрастания или убывания
-    if sorted_by_date.lower() == 'да':
-        if direction_sorted == 'по возрастанию' or direction_sorted == '':
-            sort_dir = 'from_first'
-        elif direction_sorted == 'по убыванию':
-            sort_dir = 'from_last'
+    if sorted_by_date.lower() == "да":
+        if direction_sorted == "по возрастанию" or direction_sorted == "":
+            sort_dir = "from_first"
+        elif direction_sorted == "по убыванию":
+            sort_dir = "from_last"
         result_data = sort_by_date(result_data, sort_dir)
 
     # фильтрация списка по валюте в Рублях
-    if filter_by_rub.lower() == 'да':
-        result_data = [
-            item for item in result_data
-            if item['operationAmount']['currency']['code'] == 'RUB'
-        ]
+    if filter_by_rub.lower() == "да":
+        result_data = [item for item in result_data if item["operationAmount"]["currency"]["code"] == "RUB"]
 
     if len(sorted_by_word) >= 3 and isinstance(sorted_by_word, str):
         sorted_by_word = sorted_by_word.lower()
         pattern = re.compile(re.escape(sorted_by_word))
 
         result_data = [
-            item for item in result_data
-            if (word := item.get('description')) is not None
-               and isinstance(word, str)
-               and pattern.search(word.lower())
+            item
+            for item in result_data
+            if (word := item.get("description")) is not None and isinstance(word, str) and pattern.search(word.lower())
         ]
 
     return select_state, result_data
@@ -117,7 +114,7 @@ if __name__ == "__main__":
     state, data = main(transactions)
 
     print(json.dumps(data, indent=4, ensure_ascii=False))
-    print('\n')
+    print("\n")
     print(f"Загружено из файла transactions.json: {len(transactions)} операций;\n")
     print(f"Всего банковских операций в выборке (по операции '{state}'): {len(data)};")
 
@@ -125,10 +122,10 @@ if __name__ == "__main__":
         print("Не найдено ни одной транзакции, подходящей под ваши условия фильтрации")
     else:
         for item in data:
-            operationAmount = item.get('operationAmount')
+            operationAmount = item.get("operationAmount")
             second_string = f"{mask_account_card(item.get('to', ''))}"
 
-            desc = item.get('description') or ""
+            desc = item.get("description") or ""
             if "перевод" in (desc.lower()):
                 second_string = f"{mask_account_card(item.get('from', ''))} -> {mask_account_card(item.get('to', ''))}"
 

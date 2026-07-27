@@ -5,10 +5,7 @@ from collections import Counter
 from src.utils.load_transactions import load_transactions
 
 
-def process_bank_search(
-        data: list[dict],
-        search: str = "EXECUTED"
-) -> list[dict]:
+def process_bank_search(data: list[dict], search: str = "EXECUTED") -> list[dict]:
     """
     Функция принимает список словарей с данными о банковских операциях
     и строку поиска по банковской операции,
@@ -23,9 +20,7 @@ def process_bank_search(
     return [
         item
         for item in data
-        if (state := item.get('state')) is not None
-           and isinstance(state, str)
-           and pattern.search(state.lower())
+        if (state := item.get("state")) is not None and isinstance(state, str) and pattern.search(state.lower())
     ]
 
 
@@ -54,34 +49,31 @@ def process_bank_operations(data: list[dict], categories: list) -> dict:
         в результат.
 
     """
-    counted = Counter([
-        item['description']
-        for item in data
-        if item.get('description') in categories
-    ])
+    counted = Counter([item["description"] for item in data if item.get("description") in categories])
     return dict(counted)
 
 
-def get_all_available_states():
+def get_all_available_states() -> dict:
+    """
+    Возвращает нумерованный словарь уникальных статусов транзакций.
+
+    Функция загружает все транзакции, извлекает поле `state`, отфильтровывает
+    нестроковые значения, убирает дубликаты (сохраняя порядок первого появления)
+    и нормализует статусы к нижнему регистру.
+
+    Возвращаемый словарь имеет вид: {номер: статус}, например:
+        {1: "executed", 2: "pending", 3: "canceled"}
+    """
     data = load_transactions()
 
     # dict.fromkeys убирает дубликаты и сохраняет порядок первого вхождения
-    unique_states = dict.fromkeys(
-        item.get('state') for item in data if isinstance(item.get('state'), str)
-    ).keys()
-    return {
-        i: state.lower()
-        for i, state in enumerate(unique_states, start=1)
-    }
-
-
-def is_transfer(description: str) -> bool:
-    return "перевод" in description.lower()
+    unique_states = dict.fromkeys(item.get("state") for item in data if isinstance(item.get("state"), str)).keys()
+    return {i: state.lower() for i, state in enumerate(unique_states, start=1)}
 
 
 if __name__ == "__main__":
     json_transactions = load_transactions()
-    event = 'EXECUTEd'
+    event = "EXECUTEd"
 
     search_result = process_bank_search(json_transactions, event)
 
@@ -89,12 +81,10 @@ if __name__ == "__main__":
     print(f"Найдено операций по событию {event}: {len(search_result)};")
     print(f"Всего операций загружено из файла transactions.json: {len(json_transactions)};")
     # ===========================
-    print('\n')
-    count_desc = process_bank_operations(json_transactions, [
-        "Перевод с карты на счет",
-        "Открытие вклада",
-        "Перевод организации"
-    ])
+    print("\n")
+    count_desc = process_bank_operations(
+        json_transactions, ["Перевод с карты на счет", "Открытие вклада", "Перевод организации"]
+    )
 
     print(count_desc)
 
