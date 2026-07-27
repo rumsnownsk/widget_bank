@@ -1,10 +1,7 @@
 import json
 from pathlib import Path
-from unittest.mock import Mock
 
-import pytest
-
-from utils.load_transactions import load_transactions
+from src.utils.load_transactions import load_transactions
 
 
 def test_load_transactions_file_not_found(tmp_path: Path):

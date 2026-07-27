@@ -17,7 +17,7 @@
 Скопируйте и в консоли выполните команду : 
 
 ```bash
-python3.12 src/widget.py
+poetry run python -m src.widget
 ```
 
 ## Тесты 
