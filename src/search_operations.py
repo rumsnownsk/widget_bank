@@ -30,7 +30,30 @@ def process_bank_search(
 
 
 def process_bank_operations(data: list[dict], categories: list) -> dict:
+    """
+    Подсчитывает количество банковских операций по заданным категориям.
 
+    Функция фильтрует список транзакций по полю ``description`` и возвращает
+    словарь, где ключи — названия категорий (из списка ``categories``),
+    а значения — количество операций, относящихся к каждой категории.
+
+    Параметры
+    ---------
+    data : List[Dict[str, Any]]
+        Список словарей, описывающих банковские операции. Каждый словарь
+        должен содержать ключ ``"description"`` (желательно строку).
+    categories : List[str]
+        Список допустимых категорий (описаний операций), по которым
+        выполняется подсчёт.
+
+    Возвращает
+    ----------
+    Dict[str, int]
+        Словарь вида ``{категория: количество}``. Если для какой‑либо
+        категории не найдено ни одной операции, она не будет включена
+        в результат.
+
+    """
     counted = Counter([
         item['description']
         for item in data
@@ -39,6 +62,14 @@ def process_bank_operations(data: list[dict], categories: list) -> dict:
     return dict(counted)
 
 
+def get_all_available_states():
+    data = load_transactions()
+    seen = set()
+    for item in data:
+        state = item.get('state')
+        if isinstance(state, str) and state not in seen:
+            seen.add(state)
+    return {i: state.lower() for i, state in enumerate(seen, start=1)}
 
 if __name__ == "__main__":
     json_transactions = load_transactions()
@@ -58,5 +89,7 @@ if __name__ == "__main__":
     ])
 
     print(count_desc)
+
+    get_all_available_operations()
 
 
