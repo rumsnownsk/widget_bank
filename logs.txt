@@ -3494,3 +3494,1283 @@ time_end: 24-07-2026 15:36:23
 duration_sec: 0.0002
 status: OK
 result: 11.03.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 17:43:40
+time_end: 27-07-2026 17:43:40
+duration_sec: 0.0009
+status: OK
+result: 10.05.2021
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 17:43:40
+time_end: 27-07-2026 17:43:40
+duration_sec: 0.0001
+status: OK
+result: 15.07.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 17:43:40
+time_end: 27-07-2026 17:43:40
+duration_sec: 0.0001
+status: OK
+result: 03.12.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 17:43:40
+time_end: 27-07-2026 17:43:40
+duration_sec: 0.0001
+status: OK
+result: 14.02.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 17:43:40
+time_end: 27-07-2026 17:43:40
+duration_sec: 0.0001
+status: OK
+result: 18.04.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 17:43:40
+time_end: 27-07-2026 17:43:40
+duration_sec: 0.0001
+status: OK
+result: 13.02.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 17:43:40
+time_end: 27-07-2026 17:43:40
+duration_sec: 0.0001
+status: OK
+result: 17.08.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 17:43:40
+time_end: 27-07-2026 17:43:40
+duration_sec: 0.0001
+status: OK
+result: 08.06.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 17:43:40
+time_end: 27-07-2026 17:43:40
+duration_sec: 0.0001
+status: OK
+result: 24.06.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 17:43:40
+time_end: 27-07-2026 17:43:40
+duration_sec: 0.0001
+status: OK
+result: 24.12.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 17:49:12
+time_end: 27-07-2026 17:49:12
+duration_sec: 0.0009
+status: OK
+result: 22.03.2021
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 17:49:12
+time_end: 27-07-2026 17:49:12
+duration_sec: 0.0001
+status: OK
+result: 17.05.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 17:49:12
+time_end: 27-07-2026 17:49:12
+duration_sec: 0.0001
+status: OK
+result: 22.04.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:04:39
+time_end: 27-07-2026 18:04:39
+duration_sec: 0.0002
+status: OK
+result: 22.03.2021
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:04:39
+time_end: 27-07-2026 18:04:39
+duration_sec: 0.0000
+status: OK
+result: 17.05.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:04:39
+time_end: 27-07-2026 18:04:39
+duration_sec: 0.0000
+status: OK
+result: 22.04.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0002
+status: OK
+result: 30.06.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 04.04.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 15.01.2020
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 19.08.2022
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 03.11.2023
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 14.02.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 08.08.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 19.11.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 04.06.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 15.10.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 14.02.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 09.03.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 08.11.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 15.08.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 23.01.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 13.01.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 18.12.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 08.07.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 06.02.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 21.06.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 03.03.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 25.08.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 04.08.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 07.09.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 06.08.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 07.05.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 08.02.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 16.06.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 04.05.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 29.03.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 14.08.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 05.05.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 23.12.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 07.12.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 13.11.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 30.06.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 19.04.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 16.04.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 22.07.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 03.02.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 12.02.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 16.08.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 06.07.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 27.09.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 06.05.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 27.02.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 18.07.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 06.09.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 20.06.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 19.08.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 22.12.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 19.05.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 09.03.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 15.07.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 05.01.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:08:21
+time_end: 27-07-2026 18:08:21
+duration_sec: 0.0000
+status: OK
+result: 13.07.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:11:42
+time_end: 27-07-2026 18:11:42
+duration_sec: 0.0010
+status: OK
+result: 22.03.2021
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:11:42
+time_end: 27-07-2026 18:11:42
+duration_sec: 0.0001
+status: OK
+result: 17.05.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:11:42
+time_end: 27-07-2026 18:11:42
+duration_sec: 0.0001
+status: OK
+result: 22.04.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:12:52
+time_end: 27-07-2026 18:12:52
+duration_sec: 0.0008
+status: OK
+result: 22.03.2021
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:12:52
+time_end: 27-07-2026 18:12:52
+duration_sec: 0.0001
+status: OK
+result: 17.05.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:12:52
+time_end: 27-07-2026 18:12:52
+duration_sec: 0.0001
+status: OK
+result: 22.04.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0005
+status: OK
+result: 30.06.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 04.04.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 15.01.2020
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 19.08.2022
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 03.11.2023
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 14.02.2024
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 08.08.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 19.11.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 04.06.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 15.10.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 14.02.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 09.03.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 08.11.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 15.08.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 23.01.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 13.01.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 18.12.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 08.07.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 06.02.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 21.06.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 03.03.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 25.08.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 04.08.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 07.09.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 06.08.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 07.05.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 08.02.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 16.06.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0001
+status: OK
+result: 04.05.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 29.03.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 14.08.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 05.05.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 23.12.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 07.12.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 13.11.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 30.06.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 19.04.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 16.04.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 22.07.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 03.02.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 12.02.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 16.08.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 06.07.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 27.09.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 06.05.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 27.02.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 18.07.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 06.09.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 20.06.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 19.08.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 22.12.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 19.05.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 09.03.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 15.07.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 05.01.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:13:17
+time_end: 27-07-2026 18:13:17
+duration_sec: 0.0000
+status: OK
+result: 13.07.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0007
+status: OK
+result: 03.02.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 06.02.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 09.03.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 09.03.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 05.05.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 06.07.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 06.08.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 14.08.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 27.09.2018
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 05.01.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 14.02.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 27.02.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 19.04.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 06.05.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 21.06.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 30.06.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 13.07.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 18.07.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0000
+status: OK
+result: 04.08.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0000
+status: OK
+result: 08.08.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0000
+status: OK
+result: 15.08.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0000
+status: OK
+result: 16.08.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0001
+status: OK
+result: 07.09.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0000
+status: OK
+result: 13.11.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0000
+status: OK
+result: 19.11.2019
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: get_date
+time_start: 27-07-2026 18:20:13
+time_end: 27-07-2026 18:20:13
+duration_sec: 0.0000
+status: OK
+result: 03.11.2023

@@ -180,7 +180,7 @@
     },
     "description": "Выплата зарплаты по ведомости",
     "from": "Счет 44556677889900112233",
-    "to": null,
+    "to": "Счет 27219929444683698245",
     "type": "PAYROLL",
     "category": "PAYROLL_EXPENSES",
     "tags": [
@@ -207,8 +207,8 @@
       }
     },
     "description": "Онлайн-покупка подписки",
-    "from": "Карта 411111******1111",
-    "to": "Merchant 1234567890",
+    "from": "Счет 99668626339273709694",
+    "to": "Счет 27219929444683698245",
     "type": "CARD_PAYMENT",
     "category": "SUBSCRIPTIONS",
     "tags": [
@@ -553,7 +553,7 @@
   },
   {
     "id": 556488059,
-    "state": "CANCELED",
+    "state": "PENDING",
     "date": "2019-05-17T01:50:00.166954",
     "operationAmount": {
       "amount": "74604.56",
@@ -852,12 +852,12 @@
   },
   {
     "id": 902831954,
-    "state": "EXECUTED",
+    "state": "PENDING",
     "date": "2018-04-22T17:01:46.885252",
     "operationAmount": {
       "amount": "84732.61",
       "currency": {
-        "name": "руб.",
+        "name": "RUB",
         "code": "RUB"
       }
     },

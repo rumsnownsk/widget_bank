@@ -64,12 +64,20 @@ def process_bank_operations(data: list[dict], categories: list) -> dict:
 
 def get_all_available_states():
     data = load_transactions()
-    seen = set()
-    for item in data:
-        state = item.get('state')
-        if isinstance(state, str) and state not in seen:
-            seen.add(state)
-    return {i: state.lower() for i, state in enumerate(seen, start=1)}
+
+    # dict.fromkeys убирает дубликаты и сохраняет порядок первого вхождения
+    unique_states = dict.fromkeys(
+        item.get('state') for item in data if isinstance(item.get('state'), str)
+    ).keys()
+    return {
+        i: state.lower()
+        for i, state in enumerate(unique_states, start=1)
+    }
+
+
+def is_transfer(description: str) -> bool:
+    return "перевод" in description.lower()
+
 
 if __name__ == "__main__":
     json_transactions = load_transactions()
@@ -90,6 +98,4 @@ if __name__ == "__main__":
 
     print(count_desc)
 
-    get_all_available_operations()
-
-
+    get_all_available_states()
