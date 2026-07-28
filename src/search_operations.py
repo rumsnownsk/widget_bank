@@ -1,11 +1,11 @@
-import json
 import re
 from collections import Counter
+from typing import Any, Dict, List
 
 from src.utils.load_transactions import load_transactions
 
 
-def process_bank_search(data: list[dict], search: str = "EXECUTED") -> list[dict]:
+def process_bank_search(data: List[Dict[str, Any]], search: str = "EXECUTED") -> List[Dict[str, Any]]:
     """
     Функция принимает список словарей с данными о банковских операциях
     и строку поиска по банковской операции,
@@ -24,7 +24,7 @@ def process_bank_search(data: list[dict], search: str = "EXECUTED") -> list[dict
     ]
 
 
-def process_bank_operations(data: list[dict], categories: list) -> dict:
+def process_bank_operations(data: List[Dict[str, Any]], categories: List[str]) -> Dict[str, int]:
     """
     Подсчитывает количество банковских операций по заданным категориям.
 
@@ -53,7 +53,7 @@ def process_bank_operations(data: list[dict], categories: list) -> dict:
     return dict(counted)
 
 
-def get_all_available_states() -> dict:
+def get_all_available_states() -> Dict[int, str]:
     """
     Возвращает нумерованный словарь уникальных статусов транзакций.
 
@@ -67,25 +67,29 @@ def get_all_available_states() -> dict:
     data = load_transactions()
 
     # dict.fromkeys убирает дубликаты и сохраняет порядок первого вхождения
-    unique_states = dict.fromkeys(item.get("state") for item in data if isinstance(item.get("state"), str)).keys()
+    unique_states = dict.fromkeys(
+        state.lower()
+        for item in data
+        if (state := item.get("state")) is not None and isinstance(state, str) and state.strip() != ""
+    ).keys()
     return {i: state.lower() for i, state in enumerate(unique_states, start=1)}
 
 
-if __name__ == "__main__":
-    json_transactions = load_transactions()
-    event = "EXECUTEd"
-
-    search_result = process_bank_search(json_transactions, event)
-
-    print(json.dumps(search_result, indent=4, ensure_ascii=False))
-    print(f"Найдено операций по событию {event}: {len(search_result)};")
-    print(f"Всего операций загружено из файла transactions.json: {len(json_transactions)};")
-    # ===========================
-    print("\n")
-    count_desc = process_bank_operations(
-        json_transactions, ["Перевод с карты на счет", "Открытие вклада", "Перевод организации"]
-    )
-
-    print(count_desc)
-
-    get_all_available_states()
+# if __name__ == "__main__":
+#     json_transactions = load_transactions()
+#     event = "EXECUTEd"
+#
+#     search_result = process_bank_search(json_transactions, event)
+#
+#     print(json.dumps(search_result, indent=4, ensure_ascii=False))
+#     print(f"Найдено операций по событию {event}: {len(search_result)};")
+#     print(f"Всего операций загружено из файла transactions.json: {len(json_transactions)};")
+#     # ===========================
+#     print("\n")
+#     count_desc = process_bank_operations(
+#         json_transactions, ["Перевод с карты на счет", "Открытие вклада", "Перевод организации"]
+#     )
+#
+#     print(count_desc)
+#
+#     get_all_available_states()

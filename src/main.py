@@ -38,11 +38,7 @@ def main(data: list[dict]) -> tuple[str, list[Dict]]:
         """)
     default_file = "1"
     user_input = input("Выбрать цифру и нажать Enter: ").strip()
-    type_files = {
-        "1": "JSON",
-        "2": "CSV",
-        "3": "XLSX"
-    }
+    type_files = {"1": "JSON", "2": "CSV", "3": "XLSX"}
 
     if not user_input:
         select_key = default_file
@@ -78,7 +74,7 @@ def main(data: list[dict]) -> tuple[str, list[Dict]]:
         elif raw_select_state.lower() not in dict_states.values():
             print(f"Статус операции '{raw_select_state}' недоступен\n ")
             print("Введите статус, по которому необходимо выполнить фильтрацию")
-            print(f"Доступные для фильтровки статусы операций: \n")
+            print("Доступные для фильтровки статусы операций: \n")
 
             for key, value in dict_states.items():
                 print(key, value)
