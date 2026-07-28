@@ -1,39 +1,58 @@
-import json
 import re
+from typing import Dict
 
 from src.processing import sort_by_date
-from src.search_operations import get_all_available_states, is_transfer, process_bank_search
+from src.search_operations import get_all_available_states, process_bank_search
 from src.utils.load_transactions import load_transactions
 from src.widget import get_date, mask_account_card
 
 
-def main(data: list[dict]):
+def main(data: list[dict]) -> tuple[str, list[Dict]]:
+    """
+    Основной интерактивный цикл программы widget_bank для фильтрации и вывода транзакций.
+
+    Функция запрашивает у пользователя:
+      - тип файла (JSON/CSV/XLSX) — используется только для UI-сообщения,
+        реальные данные передаются через аргумент `data`;
+      - статус транзакции для фильтрации (по номеру или по названию);
+      - необходимость сортировки по дате и её направление;
+      - фильтрацию только по рублёвым операциям;
+      - поиск по ключевому слову в описании транзакции.
+
+    После применения всех фильтров и сортировок возвращает:
+      1. выбранный статус (в нижнем регистре);
+      2. итоговый список отфильтрованных и отсортированных транзакций.
+
+
+    :param data:
+    :return:
+    """
     print("\n")
     print("Программа: Привет! Добро пожаловать в программу работы с банковскими транзакциями\n")
 
     # 1. Предложение выбора типа файла для загрузки данных
     print("""Выберите необходимый пункт меню: \n
-        1. Получить информацию о транзакциях из JSON-файла\n
-        2. Получить информацию о транзакциях из CSV-файла\n
-        3. Получить информацию о транзакциях из XLSX-файла
+    1. Получить информацию о транзакциях из JSON-файла\n
+    2. Получить информацию о транзакциях из CSV-файла\n
+    3. Получить информацию о транзакциях из XLSX-файла
         """)
     default_file = "1"
-    # user_input = input("Выбрать цифру и нажать Enter: ").strip()
-    # type_files = {
-    #     "1": "JSON",
-    #     "2": "CSV",
-    #     "3": "XLSX"
-    # }
-    #
-    # if not user_input:
-    #     select_key = default_file
-    # else:
-    #     if user_input in type_files:
-    #         select_key = user_input
-    #         print(f"Для обработки выбран {type_files.get(select_key)}-файл")
-    #     else:
-    #         print("Ошибка при выборе пункта меню\n")
-    #         print("По умолчанию для обработки выбран JSON-файл")
+    user_input = input("Выбрать цифру и нажать Enter: ").strip()
+    type_files = {
+        "1": "JSON",
+        "2": "CSV",
+        "3": "XLSX"
+    }
+
+    if not user_input:
+        select_key = default_file
+    else:
+        if user_input in type_files:
+            select_key = user_input
+            print(f"Для обработки выбран {type_files.get(select_key)}-файл")
+        else:
+            print("Ошибка при выборе пункта меню\n")
+            print("По умолчанию для обработки выбран JSON-файл")
 
     # 2. Предложение выбора Статуса операции
     print("Доступные для фильтровки статусы операций: \n")
@@ -113,14 +132,13 @@ if __name__ == "__main__":
 
     state, data = main(transactions)
 
-    print(json.dumps(data, indent=4, ensure_ascii=False))
+    # print(json.dumps(data, indent=4, ensure_ascii=False))
     print("\n")
-    print(f"Загружено из файла transactions.json: {len(transactions)} операций;\n")
-    print(f"Всего банковских операций в выборке (по операции '{state}'): {len(data)};")
 
     if not data:
         print("Не найдено ни одной транзакции, подходящей под ваши условия фильтрации")
     else:
+        print("Распечатываю итоговый список транзакций...\n")
         for item in data:
             operationAmount = item.get("operationAmount")
             second_string = f"{mask_account_card(item.get('to', ''))}"
@@ -134,3 +152,5 @@ if __name__ == "__main__":
             {second_string}
             Сумма: {operationAmount['amount']} {operationAmount['currency']['name']}
             """)
+        print(f"Загружено из файла transactions.json: {len(transactions)} операций;\n")
+        print(f"Всего банковских операций в выборке (по операции '{state}'): {len(data)};\n")
