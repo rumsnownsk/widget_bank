@@ -94,8 +94,6 @@ def main(data: list[dict]) -> tuple[str, list[Dict]]:
     Напишите слово (минимум 3 буквы) или оставьте поле пустым :
      """).strip()
 
-    print("Распечатываю итоговый список транзакций...")
-
     result_data = process_bank_search(data, select_state)
 
     # сортировка списка по дате возрастания или убывания

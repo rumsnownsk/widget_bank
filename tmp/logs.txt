@@ -10980,3 +10980,131 @@ time_end: 28-07-2026 09:47:47
 duration_sec: 0.0000
 status: OK
 result: error: invalid format
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 29-07-2026 10:04:11
+time_end: 29-07-2026 10:04:11
+duration_sec: 0.0026
+status: OK
+result: Счет **8682
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 29-07-2026 10:04:11
+time_end: 29-07-2026 10:04:11
+duration_sec: 0.0004
+status: OK
+result: Счет **2963
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 29-07-2026 10:04:11
+time_end: 29-07-2026 10:04:11
+duration_sec: 0.0004
+status: OK
+result: Счет **8682
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 29-07-2026 10:04:11
+time_end: 29-07-2026 10:04:11
+duration_sec: 0.0010
+status: OK
+result: Счет **6850
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 29-07-2026 10:04:11
+time_end: 29-07-2026 10:04:11
+duration_sec: 0.0015
+status: OK
+result: Maestro 7552 74** **** 9311
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 29-07-2026 10:04:11
+time_end: 29-07-2026 10:04:11
+duration_sec: 0.0004
+status: OK
+result: Счет **6850
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 29-07-2026 10:04:11
+time_end: 29-07-2026 10:04:11
+duration_sec: 0.0005
+status: OK
+result: Счет **4261
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 29-07-2026 10:04:11
+time_end: 29-07-2026 10:04:11
+duration_sec: 0.0003
+status: OK
+result: Visa Gold 9657 49** **** 2945
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 29-07-2026 10:04:11
+time_end: 29-07-2026 10:04:11
+duration_sec: 0.0004
+status: OK
+result: Счет **4261
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 29-07-2026 10:04:11
+time_end: 29-07-2026 10:04:11
+duration_sec: 0.0003
+status: OK
+result: Счет **9781
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 29-07-2026 10:04:11
+time_end: 29-07-2026 10:04:11
+duration_sec: 0.0003
+status: OK
+result: Счет **5290
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 29-07-2026 10:04:11
+time_end: 29-07-2026 10:04:11
+duration_sec: 0.0003
+status: OK
+result: Счет **9781
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 29-07-2026 10:04:11
+time_end: 29-07-2026 10:04:11
+duration_sec: 0.0004
+status: OK
+result: Счет **2700
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 29-07-2026 10:04:11
+time_end: 29-07-2026 10:04:11
+duration_sec: 0.0004
+status: OK
+result: Visa Classic 4610 24** **** 6784
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 29-07-2026 10:04:11
+time_end: 29-07-2026 10:04:11
+duration_sec: 0.0004
+status: OK
+result: Счет **2700
+----------------------------------------
+source_file: /home/rum/SKY.PRO_Python/widget_bank/src/widget.py
+func_name: mask_account_card
+time_start: 29-07-2026 10:04:11
+time_end: 29-07-2026 10:04:11
+duration_sec: 0.0005
+status: OK
+result: Счет **4865
