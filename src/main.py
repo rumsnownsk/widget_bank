@@ -56,7 +56,7 @@ def main(data: list[dict]) -> tuple[str, list[Dict]]:
     for key, value in dict_states.items():
         print(key, value)
 
-    print("\nВведите статус, по которому необходимо выполнить фильтрацию, \n или укажите цифру: ")
+    print("\nВведите статус, по которому необходимо выполнить фильтрацию, или укажите цифру: ")
     confirm_status = True
     select_state = ""
     while confirm_status:
