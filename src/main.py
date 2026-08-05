@@ -3,8 +3,7 @@ from typing import Dict
 
 from src.processing import sort_by_date
 from src.search_operations import get_all_available_states, process_bank_search
-from src.utils.transactions_csv_to_json import transactions_csv_to_json
-from src.utils.transactions_xlsx_to_json import transactions_xlsx_to_json
+from src.utils.dataframe_to_json import dataframe_to_json
 from src.utils.load_transactions import load_transactions
 from src.widget import get_date, mask_account_card
 
@@ -54,9 +53,9 @@ def main() -> tuple[str, list[Dict]]:
 
     #2.1 Приведение данных из файлов csv и xlsx к JSON-формату
     if user_input == '2':
-        transactions = transactions_csv_to_json()
+        transactions = dataframe_to_json("transactions.csv")
     elif user_input == '3':
-        transactions = transactions_xlsx_to_json()
+        transactions = dataframe_to_json("transactions_excel.xlsx")
     else:
         transactions = load_transactions()
 

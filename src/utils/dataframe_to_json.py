@@ -10,15 +10,15 @@ import pandas as pd
 logger = logger_utils()
 
 
-def transactions_csv_to_json(
-        filename: str = 'transactions.csv',
+def dataframe_to_json(
+        filename: str,
         base_dir: Path | None = None
 ) -> List[Dict[str, Any]]:
     """
-    Преобразует CSV‑файл с транзакциями в список словарей с вложенной структурой
+    Преобразует CSV или xlsx-файл с транзакциями в список словарей с вложенной структурой
 
     Параметры:
-      filename: имя CSV‑файла (по умолчанию 'transactions.csv').
+      filename: имя CSV или xlsx‑файла .
       base_dir: корневая директория для поиска файла. Если не указана, используется PROJECT_ROOT.
 
     Возвращает:
@@ -27,30 +27,37 @@ def transactions_csv_to_json(
 
     root_dir = base_dir if base_dir is not None else PROJECT_ROOT
     file_path = root_dir / "data" / filename
-
+    file_extension = file_path.suffix.lower()[1:]
+    print(file_extension)
     if not file_path.exists():
         logger.error(f'Файл {file_path} не найден (модуль "%s", функция "%s")', __name__,
-                     transactions_csv_to_json.__name__)
+                     dataframe_to_json.__name__)
         return []
 
     if file_path.stat().st_size == 0:
         logger.error(f'Файл {file_path} пустой (модуль "%s", функция "%s")', __name__,
-                     transactions_csv_to_json.__name__)
+                     dataframe_to_json.__name__)
         return []
 
     try:
-        df = pd.read_csv(file_path, delimiter=";")
+        if file_extension.lower() == "csv":
+            df = pd.read_csv(file_path, delimiter=";")
+        elif file_extension.lower() == "xlsx":
+            df = pd.read_excel(file_path)
+        else:
+            logger.error(f'Ошибка определения типа файла {file_path} (модуль "%s", функция "%s")', __name__,
+                     dataframe_to_json.__name__)
+            return []
     except Exception as e:
         logger.error(
             'Ошибка при чтении CSV‑файла %s: %s (модуль "%s", функция "%s")',
-            file_path, e, __name__, transactions_csv_to_json.__name__
+            file_path, e, __name__, dataframe_to_json.__name__
         )
         return []
     if df.empty:
         logger.warning('CSV‑файл %s не содержит данных', file_path)
         return []
 
-    # data = reviews.to_dict(orient='records')
     transactions = []
 
     for idx, row in df.iterrows():
@@ -67,13 +74,24 @@ def transactions_csv_to_json(
 
         # Вложенная структура currency
         currency = {
-            "name": row.get('currency_name', "unknown"),
-            "code": row.get("currency_code","unknown")
+            "name": row.get('currency_name', ""),
+            "code": row.get("currency_code","")
         }
+
+        # Обработка amount
+        amount_val = row.get("amount")
+        if pd.isna(amount_val):
+            amount_val = 0.0
+        else:
+            try:
+                amount_val = float(amount_val)
+            except (TypeError, ValueError):
+                logger.warning('Строка %d: некорректный amount "%s", установлено 0.0', idx, amount_val)
+                amount_val = 0.0
 
         # Вложенная структура operationAmount
         operation_amount = {
-            "amount": str(row.get('amount', str(0))),
+            "amount": amount_val,
             "currency": currency
         }
 
@@ -92,10 +110,9 @@ def transactions_csv_to_json(
             "reference": ""
         }
         transactions.append(transaction)
-    # print(json.dumps(transactions, indent=2, ensure_ascii=False))
 
     return transactions
 
 
 if __name__ == "__main__":
-    transactions_csv_to_json()
+    dataframe_to_json("transactions_excel.xlsx")
