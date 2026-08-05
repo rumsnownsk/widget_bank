@@ -51,15 +51,15 @@ def main() -> tuple[str, list[Dict]]:
             print("Ошибка при выборе пункта меню\n")
             print("По умолчанию для обработки выбран JSON-файл")
 
-    #2.1 Приведение данных из файлов csv и xlsx к JSON-формату
-    if user_input == '2':
+    # 2.1 Приведение данных из файлов csv и xlsx к JSON-формату
+    if user_input == "2":
         transactions = dataframe_to_json("transactions.csv")
-    elif user_input == '3':
+    elif user_input == "3":
         transactions = dataframe_to_json("transactions_excel.xlsx")
     else:
         transactions = load_transactions()
 
-# 2. Предложение выбора Статуса операции
+    # 2. Предложение выбора Статуса операции
     print("Доступные для фильтровки статусы операций: \n")
     dict_states = get_all_available_states(transactions)
     for key, value in dict_states.items():

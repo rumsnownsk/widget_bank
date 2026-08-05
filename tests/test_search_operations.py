@@ -85,9 +85,8 @@ def test_process_bank_operations_empty_data():
     assert result == {}
 
 
-@patch("src.search_operations.load_transactions")
-def test_get_all_available_states_returns_numbered_dict(mock_load):
-    mock_load.return_value = [
+def test_get_all_available_states_returns_numbered_dict():
+    data = [
         {"state": "EXECUTED"},
         {"state": "PENDING"},
         {"state": "EXECUTED"},  # дубликат
@@ -95,7 +94,7 @@ def test_get_all_available_states_returns_numbered_dict(mock_load):
         {"state": None},  # пропускается
         {"state": 123},  # пропускается (не строка)
     ]
-    result = get_all_available_states()
+    result = get_all_available_states(data)
     # порядок сохраняется по первому вхождению, дубликаты удалены
     expected = {
         1: "executed",
@@ -105,20 +104,17 @@ def test_get_all_available_states_returns_numbered_dict(mock_load):
     assert result == expected
 
 
-@patch("src.search_operations.load_transactions")
-def test_get_all_available_states_empty_data(mock_load):
-    mock_load.return_value = []
-    result = get_all_available_states()
+def test_get_all_available_states_empty_data():
+    result = get_all_available_states([])
     assert result == {}
 
 
-@patch("src.search_operations.load_transactions")
-def test_get_all_available_states_all_invalid_states(mock_load):
-    mock_load.return_value = [
+def test_get_all_available_states_all_invalid_states():
+    data = [
         {"state": None},
         {"state": 123},
         {"state": ""},
         {"state": "   "},
     ]
-    result = get_all_available_states()
+    result = get_all_available_states(data)
     assert result == {}

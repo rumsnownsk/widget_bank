@@ -2,8 +2,6 @@ import re
 from collections import Counter
 from typing import Any, Dict, List
 
-from src.utils.load_transactions import load_transactions
-
 
 def process_bank_search(data: List[Dict[str, Any]], search: str = "EXECUTED") -> List[Dict[str, Any]]:
     """
@@ -53,7 +51,7 @@ def process_bank_operations(data: List[Dict[str, Any]], categories: List[str]) -
     return dict(counted)
 
 
-def get_all_available_states(data:List[Dict]) -> Dict[int, str]:
+def get_all_available_states(data: List[Dict]) -> Dict[int, str]:
     """
     Возвращает нумерованный словарь уникальных статусов транзакций.
 
