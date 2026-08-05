@@ -3,11 +3,13 @@ from typing import Dict
 
 from src.processing import sort_by_date
 from src.search_operations import get_all_available_states, process_bank_search
+from src.utils.transactions_csv_to_json import transactions_csv_to_json
+from src.utils.transactions_xlsx_to_json import transactions_xlsx_to_json
 from src.utils.load_transactions import load_transactions
 from src.widget import get_date, mask_account_card
 
 
-def main(data: list[dict]) -> tuple[str, list[Dict]]:
+def main() -> tuple[str, list[Dict]]:
     """
     Основной интерактивный цикл программы widget_bank для фильтрации и вывода транзакций.
 
@@ -24,14 +26,14 @@ def main(data: list[dict]) -> tuple[str, list[Dict]]:
       2. итоговый список отфильтрованных и отсортированных транзакций.
 
 
-    :param data:
+    :param :
     :return:
     """
     print("\n")
     print("Программа: Привет! Добро пожаловать в программу работы с банковскими транзакциями\n")
 
     # 1. Предложение выбора типа файла для загрузки данных
-    print("""Выберите необходимый пункт меню: \n
+    print("""Выберите необходимый пункт меню (указать номер пункта меню): \n
     1. Получить информацию о транзакциях из JSON-файла\n
     2. Получить информацию о транзакциях из CSV-файла\n
     3. Получить информацию о транзакциях из XLSX-файла
@@ -50,9 +52,17 @@ def main(data: list[dict]) -> tuple[str, list[Dict]]:
             print("Ошибка при выборе пункта меню\n")
             print("По умолчанию для обработки выбран JSON-файл")
 
-    # 2. Предложение выбора Статуса операции
+    #2.1 Приведение данных из файлов csv и xlsx к JSON-формату
+    if user_input == '2':
+        transactions = transactions_csv_to_json()
+    elif user_input == '3':
+        transactions = transactions_xlsx_to_json()
+    else:
+        transactions = load_transactions()
+
+# 2. Предложение выбора Статуса операции
     print("Доступные для фильтровки статусы операций: \n")
-    dict_states = get_all_available_states()
+    dict_states = get_all_available_states(transactions)
     for key, value in dict_states.items():
         print(key, value)
 
@@ -94,7 +104,7 @@ def main(data: list[dict]) -> tuple[str, list[Dict]]:
     Напишите слово (минимум 3 буквы) или оставьте поле пустым :
      """).strip()
 
-    result_data = process_bank_search(data, select_state)
+    result_data = process_bank_search(transactions, select_state)
 
     # сортировка списка по дате возрастания или убывания
     if sorted_by_date.lower() == "да":
@@ -122,9 +132,8 @@ def main(data: list[dict]) -> tuple[str, list[Dict]]:
 
 
 if __name__ == "__main__":
-    transactions = load_transactions()
 
-    state, data = main(transactions)
+    state, data = main()
 
     # print(json.dumps(data, indent=4, ensure_ascii=False))
     print("\n")
@@ -146,5 +155,5 @@ if __name__ == "__main__":
             {second_string}
             Сумма: {operationAmount['amount']} {operationAmount['currency']['name']}
             """)
-        print(f"Загружено из файла transactions.json: {len(transactions)} операций;\n")
+        # print(f"Загружено из файла transactions.json: {len(transactions)} операций;\n")
         print(f"Всего банковских операций в выборке (по операции '{state}'): {len(data)};\n")

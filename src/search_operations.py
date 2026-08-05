@@ -53,7 +53,7 @@ def process_bank_operations(data: List[Dict[str, Any]], categories: List[str]) -
     return dict(counted)
 
 
-def get_all_available_states() -> Dict[int, str]:
+def get_all_available_states(data:List[Dict]) -> Dict[int, str]:
     """
     Возвращает нумерованный словарь уникальных статусов транзакций.
 
@@ -64,7 +64,7 @@ def get_all_available_states() -> Dict[int, str]:
     Возвращаемый словарь имеет вид: {номер: статус}, например:
         {1: "executed", 2: "pending", 3: "canceled"}
     """
-    data = load_transactions()
+    # data = load_transactions()
 
     # dict.fromkeys убирает дубликаты и сохраняет порядок первого вхождения
     unique_states = dict.fromkeys(
