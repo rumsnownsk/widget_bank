@@ -37,19 +37,15 @@ def main() -> tuple[str, list[Dict]]:
     2. Получить информацию о транзакциях из CSV-файла\n
     3. Получить информацию о транзакциях из XLSX-файла
         """)
-    default_file = "1"
+
     user_input = input("Выбрать цифру и нажать Enter: ").strip()
     type_files = {"1": "JSON", "2": "CSV", "3": "XLSX"}
 
-    if not user_input:
-        select_key = default_file
+    if user_input in type_files:
+        print(f"Для обработки выбран {type_files.get(user_input)}-файл")
     else:
-        if user_input in type_files:
-            select_key = user_input
-            print(f"Для обработки выбран {type_files.get(select_key)}-файл")
-        else:
-            print("Ошибка при выборе пункта меню\n")
-            print("По умолчанию для обработки выбран JSON-файл")
+        print("Ошибка при выборе пункта меню\n")
+        print("По умолчанию для обработки выбран JSON-файл")
 
     # 2.1 Приведение данных из файлов csv и xlsx к JSON-формату
     if user_input == "2":
@@ -73,12 +69,12 @@ def main() -> tuple[str, list[Dict]]:
 
         if raw_select_state.isdigit() and int(raw_select_state) in list(dict_states.keys()):
             select_state = dict_states[int(raw_select_state)]
-            print(f"Операции отфильтрованы по статусу '{select_state}'")
+            print(f"Операции отфильтрованы по статусу '{select_state}'\n")
             confirm_status = False
 
         elif raw_select_state.lower() in dict_states.values():
             select_state = raw_select_state.lower()
-            print(f"Операции отфильтрованы по статусу '{raw_select_state}'")
+            print(f"Операции отфильтрованы по статусу '{raw_select_state}'\n")
             confirm_status = False
         elif raw_select_state.lower() not in dict_states.values():
             print(f"Статус операции '{raw_select_state}' недоступен\n ")
@@ -88,10 +84,25 @@ def main() -> tuple[str, list[Dict]]:
             for key, value in dict_states.items():
                 print(key, value)
 
+    print(f"\nДелать сортировку или фильтрацию по разным условиям?\n"
+          f"1. Да, хочу отфильтровать (по умолчанию)\n"
+          f"2. Нет (вывести транзакции по статусу \"{select_state}\")")
+
+    user_input = input("> ").strip()
+
+    if user_input == "": user_input = "1"
+
+    if not user_input.isdigit() or int(user_input) not in (1, 2):
+        print("Неверный ввод. Будем использовать вариант по умолчанию (1).")
+
+    # Если выбрали «Нет» (2), сразу возвращаем без сортировки
+    if user_input == "2":
+        return select_state, transactions
+
     sorted_by_date = input("Отсортировать операции по дате (по умолчанию - Нет)? (Да/Нет): ").strip()
 
     direction_sorted = ""
-    if sorted_by_date.lower() == "да":
+    if sorted_by_date.lower() in ("да", "д", "yes", "y"):
         direction_sorted = input(
             "Отсортировать по возрастанию(по умолчанию) или по убыванию? (по возрастанию/по убыванию): "
         ).strip()
@@ -134,7 +145,6 @@ if __name__ == "__main__":
 
     state, data = main()
 
-    # print(json.dumps(data, indent=4, ensure_ascii=False))
     print("\n")
 
     if not data:
@@ -154,5 +164,5 @@ if __name__ == "__main__":
             {second_string}
             Сумма: {operationAmount['amount']} {operationAmount['currency']['name']}
             """)
-        # print(f"Загружено из файла transactions.json: {len(transactions)} операций;\n")
+
         print(f"Всего банковских операций в выборке (по операции '{state}'): {len(data)};\n")
