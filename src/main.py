@@ -37,19 +37,15 @@ def main() -> tuple[str, list[Dict]]:
     2. Получить информацию о транзакциях из CSV-файла\n
     3. Получить информацию о транзакциях из XLSX-файла
         """)
-    default_file = "1"
+
     user_input = input("Выбрать цифру и нажать Enter: ").strip()
     type_files = {"1": "JSON", "2": "CSV", "3": "XLSX"}
 
-    if not user_input:
-        select_key = default_file
+    if user_input in type_files:
+        print(f"Для обработки выбран {type_files.get(user_input)}-файл")
     else:
-        if user_input in type_files:
-            select_key = user_input
-            print(f"Для обработки выбран {type_files.get(select_key)}-файл")
-        else:
-            print("Ошибка при выборе пункта меню\n")
-            print("По умолчанию для обработки выбран JSON-файл")
+        print("Ошибка при выборе пункта меню\n")
+        print("По умолчанию для обработки выбран JSON-файл")
 
     # 2.1 Приведение данных из файлов csv и xlsx к JSON-формату
     if user_input == "2":
@@ -134,7 +130,6 @@ if __name__ == "__main__":
 
     state, data = main()
 
-    # print(json.dumps(data, indent=4, ensure_ascii=False))
     print("\n")
 
     if not data:
@@ -154,5 +149,5 @@ if __name__ == "__main__":
             {second_string}
             Сумма: {operationAmount['amount']} {operationAmount['currency']['name']}
             """)
-        # print(f"Загружено из файла transactions.json: {len(transactions)} операций;\n")
+
         print(f"Всего банковских операций в выборке (по операции '{state}'): {len(data)};\n")
