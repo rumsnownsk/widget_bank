@@ -1,10 +1,13 @@
 import re
 from datetime import datetime
 
+from src.decorators import log
 from src.masks import get_mask_account, get_mask_card_number
 from src.processing import filter_by_state, sort_by_date
+from src.utils.load_transactions import load_transactions
 
 
+@log(filename="tmp/logs.txt")
 def mask_account_card(text_data: str) -> str:
     """
     Функция принимает любую строку, в которой имеется 16тизначный номер карты
@@ -12,6 +15,9 @@ def mask_account_card(text_data: str) -> str:
     После первого найденного номера обрабатывает его и возвращает текст до номера
     плюс замаскированный номер — без остальной части строки
     """
+    if not isinstance(text_data, str):
+        return ""
+
     card_found = bool(re.search(r"\b(\d{16})\b", text_data))
     account_found = bool(re.search(r"\b(\d{20})\b", text_data))
 
@@ -39,6 +45,7 @@ def mask_account_card(text_data: str) -> str:
     return ""
 
 
+@log(filename="logs.txt")
 def get_date(date_str: str) -> str:
     """
     Функция принимает дату в формате 2024-03-11T02:26:18.671407,
@@ -59,8 +66,6 @@ def get_date(date_str: str) -> str:
 
 
 if __name__ == "__main__":
-    # print(mask_account_card("Карта 1234567890123456 и ещё 9876543210000000"))
-    # print(mask_account_card("Счет 12345678901234567890 и карта 1111222233334444"))
     print(mask_account_card("Visa Platinum 7000792289606361"))
     print(mask_account_card("Счет 73654108430135874305"))
     print(get_date("2024-03-11T02:26:18.671407"))
@@ -87,3 +92,5 @@ if __name__ == "__main__":
             "from_first",
         )
     )
+
+    load_transactions()
