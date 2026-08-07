@@ -10,6 +10,10 @@ packages = [{include = "src"}]
 python = "^3.12"
 requests = "^2.34.2"
 python-dotenv = "^1.2.2"
+isort = "^8.0.1"
+pandas = "^3.0.5"
+pandas-stubs = "~=3.0.5"
+openpyxl = "^3.1.5"
 
 
 [tool.poetry.group.lint.dependencies]
@@ -22,6 +26,8 @@ isort = "^8.0.1"
 [tool.poetry.group.dev.dependencies]
 pytest = "^9.1.1"
 pytest-cov = "^7.1.0"
+mypy = "^2.3.0"
+flake8 = "^7.3.0"
 
 [build-system]
 requires = ["poetry-core"]
